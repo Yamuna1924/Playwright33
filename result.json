@@ -1,0 +1,353 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\playwright.config.js",
+    "rootDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "line",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "result.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "setup",
+        "name": "setup",
+        "testDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.setup\\.js/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/Dell/OneDrive/Pictures/Documents/learnplaywright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.54.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Login\\login.spec.js",
+      "file": "Login/login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "login functionality  using POM",
+          "file": "Login/login.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "verify login with valid creds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8261,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-07T11:58:52.552Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-a8e3d-rify-login-with-valid-creds-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf8938520ea8d610d94-55eab8914c1ec559ffbf",
+              "file": "Login/login.spec.js",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "verify login with valid username and invalid password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10062,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-07T11:59:01.426Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-cd6ca-ername-and-invalid-password-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-cd6ca-ername-and-invalid-password-chromium\\test-finished-2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf8938520ea8d610d94-12135652d5b2b95371df",
+              "file": "Login/login.spec.js",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "verify login with invalid username and invalid password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7847,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-07T11:59:11.502Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-3576d-ername-and-invalid-password-chromium\\test-finished-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-3576d-ername-and-invalid-password-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-3576d-ername-and-invalid-password-chromium\\test-finished-3.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf8938520ea8d610d94-9f111c53bff98d6f4279",
+              "file": "Login/login.spec.js",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "verify login with invalid username and valid password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7982,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-07T11:59:19.362Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-5030a-username-and-valid-password-chromium\\test-finished-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-5030a-username-and-valid-password-chromium\\test-finished-3.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-5030a-username-and-valid-password-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Dell\\OneDrive\\Pictures\\Documents\\learnplaywright\\test-results\\Login-login-login-function-5030a-username-and-valid-password-chromium\\test-finished-4.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf8938520ea8d610d94-0c71eaa5bb0d27497580",
+              "file": "Login/login.spec.js",
+              "line": 27,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-07T11:58:47.352Z",
+    "duration": 40088.523999999976,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
